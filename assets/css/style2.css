@@ -1,0 +1,251 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/logo/signin.png");
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+.navcontainer {
+    max-width: 1600px;
+    background-color: white;
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+}
+
+img {
+    height: 70px;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-nav {
+    font-size: 22px;
+}
+
+li {
+    padding-left: 80px;
+}
+
+/* .home{
+    color: #DB8989!important;
+    font-weight: bold;
+} */
+
+
+.page {
+    /*margin: 20px;*/
+    /* background-color: #DB8989; */
+    height: 740px;
+    width: 51%;
+    align-items: center;
+    margin: auto;
+    background-image: url(../img/logo/Untitled4.png);
+    background-repeat: round;
+    border-radius: 40%;
+}
+
+.background{
+    top: 340px;
+    position: absolute;
+    left: 550px;
+    color: white;
+}
+
+
+.roundimage{
+    border-radius: 50%;
+    width: 300px;
+    height: 285px;
+    position: absolute;
+    bottom: 187px;
+    left: 669px;
+}
+
+header .header {
+    background-color: #fff;
+    height: 45px;
+}
+
+header a img {
+    width: 134px;
+    margin-top: 4px;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.login-page .form .login {
+    margin-top: -31px;
+    margin-bottom: 26px;
+}
+
+.form {
+    width: 550px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10%;
+    position: absolute;
+    left: 550px;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 100%;
+    border: 1;
+    border-color: #5AA5E9;
+    border-radius: 12px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form .i2 {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 100%;
+    border: 1;
+    border-color: #E17E77;
+    border-radius: 12px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #3895ec;
+    background-image: linear-gradient(45deg, #5AA5E9, #499dec);
+    width: 40%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    opacity: 0.9;
+
+}
+
+.form .b2{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #E17E77;
+    background-image: linear-gradient(45deg, #E17E77, #E17E77);
+    width: 40%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    opacity: 0.9;
+
+}
+
+.check{
+    margin-right: 70px;
+    margin-left: 50px;
+}
+
+button:hover {
+    opacity: 1
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+.form .message a {
+    color: #5AA5E9;
+    text-decoration: none;
+}
+
+.form .message2 a {
+    color: #E17E77;
+    text-decoration: none;
+}
+
+.form label,
+h3 {
+    color: #5AA5E9;
+}
+
+.form label,
+h3 .header2{
+    color: #E17E77;
+}
+
+.header2{
+    color: #E17E77;
+}
+
+.images {
+    width: 40%;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.image {
+    width: 580px;
+    height: 890px;
+    position: absolute;
+    top: 97px;
+    right: 0px;
+}
+
+.landbuttons{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #CF6262;
+    background-image: linear-gradient(45deg, #CF6262, #f37373);
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 12px;
+    opacity: 0.9;
+    margin-top: 23px;
+}
+
+.landbuttons:hover{
+    opacity: 1;
+}
