@@ -5,8 +5,8 @@ use PHPMailer\PHPMailer\SMTP;
 
 abstract class Mail {
     protected const MAILHOST = 'smtp-mail.outlook.com';
-    protected const MAILUSERNAME = 'petPlanet2023@outlook.com';
-    protected const MAILPASSWORD = 'pet2023planet';
+    protected const MAILUSERNAME = 'ecommerce_2022@outlook.com';
+    protected const MAILPASSWORD = 'ecommerce1234';
     protected const MAILPORT = 587;
     protected const MAILENCRYPTION = PHPMailer::ENCRYPTION_STARTTLS;
     protected PHPMailer $mail;

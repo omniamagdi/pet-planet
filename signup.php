@@ -57,8 +57,9 @@ $validation = new Validation;
 
             $subject = "Verification Mail";
             $body = "<p> Hello {$_POST['first_name']} {$_POST['last_name']}.</p>
-            <p> Your Verification Code:<b style='color:blue;'>{$verification_code}</b></p>
-            <p> Thank You</p>";
+            <p> In order to use pet planet, you must confirm your email<br> address. Your
+            Verification Code:<b style='color:blue;'> {$verification_code} </b></p>
+            <p> Thank You!</p>";
 
             $verificationMail = new VerificationCodeMail;
 
